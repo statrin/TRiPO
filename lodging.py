@@ -4,6 +4,7 @@ from langchain.prompts import ChatPromptTemplate, SystemMessagePromptTemplate, H
 from langchain.chains import LLMChain
 from langchain.chat_models import ChatOpenAI
 import openai
+import streamlit as st
 
 # 임베딩 모델 위한 라이브러리
 from sentence_transformers import SentenceTransformer
